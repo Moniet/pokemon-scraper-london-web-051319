@@ -1,6 +1,6 @@
 require "pry"
 class Pokemon
-  def initialize(id: nil, name: , type:, hp:, db:)
+  def initialize(id: nil, name: , type:, hp: nil, db:)
     @id = id
     @name = name
     @type = type
